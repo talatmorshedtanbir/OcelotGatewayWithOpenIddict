@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="2.11.2" />
+    <PackageReference Include="OpenIddict.AspNetCore" Version="3.1.0" />
+    <PackageReference Include="OpenIddict.Validation" Version="3.1.0" />
+    <PackageReference Include="OpenIddict.Validation.AspNetCore" Version="3.1.0" />
+    <PackageReference Include="OpenIddict.Validation.SystemNetHttp" Version="3.1.0" />
+  </ItemGroup>
+
+
+</Project>

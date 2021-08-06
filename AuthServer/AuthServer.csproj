@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>2a327c77-a4be-42b7-bbe0-7445de098133</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.13" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.17" />
+    <PackageReference Include="OpenIddict.AspNetCore" Version="3.1.0" />
+    <PackageReference Include="OpenIddict.EntityFrameworkCore" Version="3.1.0" />
+    <PackageReference Include="OpenIddict.Quartz" Version="3.1.0" />
+    <PackageReference Include="Quartz.Extensions.Hosting" Version="3.3.2" />
+  </ItemGroup>
+
+
+</Project>
